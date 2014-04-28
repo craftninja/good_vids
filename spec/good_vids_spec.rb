@@ -1,9 +1,16 @@
 require 'spec_helper'
 require_relative '../good_vids'
+require 'sequel'
 
 Capybara.app = GoodVids
 
+DB = Sequel.connect('postgres://gschool_user:password@localhost/good_vids_test')
+
 feature 'User can manage a list of videos' do
+
+  before do
+    DB[:good_vids].delete
+  end
 
   scenario 'User is welcomed on homepage' do
     visit '/'
