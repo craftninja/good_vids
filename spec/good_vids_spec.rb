@@ -31,9 +31,9 @@ feature 'User can manage a list of videos' do
 
   scenario 'User can update videos' do
     visit '/'
-    old_video_name = 'rapper with a baby'
-    updated_video_name = 'Rapper with a Baby'
-    video_url = 'http://www.youtube.com/watch?v=jVKwd4Cs4tg'
+    old_video_name = 'Pass the beer'
+    updated_video_name = 'Hey Pass Me A Beer II'
+    video_url = 'http://www.youtube.com/watch?v=HVsU-vwUpdM'
     fill_in 'Video Name', with: old_video_name
     fill_in 'Video URL', with: video_url
     click_on 'Add'
