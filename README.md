@@ -2,7 +2,7 @@
 
 # Good Vids basic Postgres Sinatra CRUD app
 
-This is the project from [the blog post at Emily Platzer Makes Things](http://emily-platzer-makes-things.herokuapp.com/2014/05/05/sinatra-postgres-app.html).
+not-so-restful routes. A nicer version is heading over to [https://github.com/craftninja/blog_good_vids](https://github.com/craftninja/blog_good_vids) on May 5th.
 
 # create databases
 
